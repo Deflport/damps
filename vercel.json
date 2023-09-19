@@ -1,0 +1,11 @@
+{
+  "cron": {
+    "jobs": [
+      {
+        "name": "Change URL",
+        "expression": "0 0 0 */3 *",
+        "url": "/api/change-url"
+      }
+    ]
+  }
+}
